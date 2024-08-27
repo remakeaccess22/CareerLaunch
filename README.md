@@ -1,4 +1,4 @@
-<p align="items-center"><img src="/public/Logo.svg" width="500" alt="Laravel Logo"></a></p>
+<p align="items-center"><img src="/resources/images/Logo.svg" width="500" alt="CareerLaunch Logo"></a></p>
 
 ## About CareerLaunch
 

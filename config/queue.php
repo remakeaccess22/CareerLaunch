@@ -11,7 +11,7 @@ return [
     | API, giving you convenient access to each backend using identical
     | syntax for each. The default queue connection is defined below.
     |
-    */
+     */
 
     'default' => env('QUEUE_CONNECTION', 'database'),
 
@@ -26,7 +26,7 @@ return [
     |
     | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
     |
-    */
+     */
 
     'connections' => [
 
@@ -37,7 +37,7 @@ return [
         'database' => [
             'driver' => 'database',
             'connection' => env('DB_QUEUE_CONNECTION'),
-            'table' => env('DB_QUEUE_TABLE', 'jobs'),
+            'table' => env('DB_QUEUE_TABLE', 'queued_jobs'),
             'queue' => env('DB_QUEUE', 'default'),
             'retry_after' => (int) env('DB_QUEUE_RETRY_AFTER', 90),
             'after_commit' => false,
@@ -83,11 +83,11 @@ return [
     | batching information. These options can be updated to any database
     | connection and table which has been defined by your application.
     |
-    */
+     */
 
     'batching' => [
         'database' => env('DB_CONNECTION', 'sqlite'),
-        'table' => 'job_batches',
+        'table' => 'queued_job_batches',
     ],
 
     /*
@@ -101,12 +101,12 @@ return [
     |
     | Supported drivers: "database-uuids", "dynamodb", "file", "null"
     |
-    */
+     */
 
     'failed' => [
         'driver' => env('QUEUE_FAILED_DRIVER', 'database-uuids'),
         'database' => env('DB_CONNECTION', 'sqlite'),
-        'table' => 'failed_jobs',
+        'table' => 'queued_failed_jobs',
     ],
 
 ];

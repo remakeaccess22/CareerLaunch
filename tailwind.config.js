@@ -5,6 +5,7 @@ export default {
         extend: {
             colors: {
                 black: "#060606",
+                blue: "#0d6efd",
             },
             fontFamily: {
                 "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],

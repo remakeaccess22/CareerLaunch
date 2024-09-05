@@ -41,7 +41,6 @@
                 <x-job-card-wide />
             </div>
 
-
         </section>
     </div>
 </x-layout>

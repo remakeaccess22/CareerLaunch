@@ -21,7 +21,7 @@
                 </a>
             </div>
             <div class="space-x-6 font-bold">
-                <a href="#">Jobs</a>
+                <a href="hover:text-violet-600">Jobs</a>
                 <a href="#">Careers</a>
                 <a href="#">Salaries</a>
                 <a href="#">Companies</a>

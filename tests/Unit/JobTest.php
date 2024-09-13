@@ -14,3 +14,15 @@ it('belongs to the employer', function () {
     expect($job->employer->is($employer))->toBeTrue();
 
 });
+
+it('can have tags', function () {
+    //Arrange
+    $job = Job::factory()->create();
+    $tags = ['PHP', 'Laravel', 'Vue.js'];
+
+    //Act
+    $job->tags()->attach($tags);
+
+    //Assert
+    expect($job->tags->pluck('name'))->toEqual($tags);
+});

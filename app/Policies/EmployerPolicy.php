@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Policies;
 
 use App\Models\Employer;
@@ -14,7 +13,6 @@ class EmployerPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can view the model.
      */
@@ -22,7 +20,6 @@ class EmployerPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can create models.
      */
@@ -30,7 +27,6 @@ class EmployerPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can update the model.
      */
@@ -38,7 +34,6 @@ class EmployerPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can delete the model.
      */
@@ -46,7 +41,6 @@ class EmployerPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can restore the model.
      */
@@ -54,7 +48,6 @@ class EmployerPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can permanently delete the model.
      */

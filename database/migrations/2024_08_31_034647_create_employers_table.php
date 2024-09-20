@@ -1,11 +1,8 @@
 <?php
-
 use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
-// Add this line to import the User class
 
 return new class extends Migration
 {
@@ -22,7 +19,6 @@ return new class extends Migration
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      */

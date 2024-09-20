@@ -1,5 +1,4 @@
 <?php
-
 use App\Models\Employer;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -18,13 +17,12 @@ return new class extends Migration
             $table->string('title');
             $table->string('salary');
             $table->string('location');
-            $table->string('schedule')->default('Full time');
+            $table->string('schedule')->default('Full Time');
             $table->string('url');
             $table->boolean('featured')->default(false);
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      */

@@ -8,7 +8,7 @@
             Video Producer
         </h3>
         <p class="text-sm text-gray-400 mt-auto">
-            Full Time - From $60,000
+            {{ $job->salary }}
         </p>
     </div>
     <div class="space-x-2">

@@ -5,7 +5,7 @@
     <div class="flex-1 flex flex-col">
         <a href="#" class="self-start text-sm text-gray-400">Laracasts</a>
         <h3 class="group-hover:text-violet-600 transition-colors duration-300 text-xl font-bold">
-            Video Producer
+            {{ $job->title }}
         </h3>
         <p class="text-sm text-gray-400 mt-auto">
             {{ $job->salary }}

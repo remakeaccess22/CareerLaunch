@@ -1,3 +1,5 @@
+@props(['job'])
+
 <x-panels class="flex gap-x-6">
     <div>
         <x-employer-logo />

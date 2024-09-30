@@ -2,7 +2,7 @@
     <div class="self-start text-sm">Laracasts</div>
     <div class="py-8">
         <h3 class="group-hover:text-violet-600 transition-colors duration-300 text-xl font-bold">
-            Video Producer
+            {{ $job->employer->name }}
         </h3>
         <p class="text-sm mt-4">
             Full Time - From $60,000

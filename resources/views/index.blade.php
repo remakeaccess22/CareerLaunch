@@ -14,6 +14,9 @@
                 <x-job-card />
                 <x-job-card />
                 <x-job-card />
+                @foreach ($featuredJobs as $job)
+                    <x-job-card :$job />
+                @endforeach
             </div>
         </section>
 
